@@ -1,0 +1,21 @@
+{
+    "name": "vendr-server",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "daniel aoulou",
+    "type": "commonjs",
+    "main": "server.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "nodemon --watch src --exec ts-node src/server.ts"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.2"
+    }
+}
